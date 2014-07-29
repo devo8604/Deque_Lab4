@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A3987101987333700E1C602 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A39870F1987333700E1C602 /* main.cpp */; };
+		4A3987101987333700E1C602 /* lab4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A39870F1987333700E1C602 /* lab4.cpp */; };
 		4A3987121987333700E1C602 /* Deque_Lab4.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4A3987111987333700E1C602 /* Deque_Lab4.1 */; };
+		4A39871A1987337200E1C602 /* Patron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A3987181987337200E1C602 /* Patron.cpp */; };
+		4A39871D1987339500E1C602 /* HairPlace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A39871B1987339500E1C602 /* HairPlace.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +28,12 @@
 
 /* Begin PBXFileReference section */
 		4A39870C1987333700E1C602 /* Deque_Lab4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Deque_Lab4; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A39870F1987333700E1C602 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4A39870F1987333700E1C602 /* lab4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lab4.cpp; sourceTree = "<group>"; };
 		4A3987111987333700E1C602 /* Deque_Lab4.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Deque_Lab4.1; sourceTree = "<group>"; };
+		4A3987181987337200E1C602 /* Patron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Patron.cpp; sourceTree = "<group>"; };
+		4A3987191987337200E1C602 /* Patron.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patron.h; sourceTree = "<group>"; };
+		4A39871B1987339500E1C602 /* HairPlace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HairPlace.cpp; sourceTree = "<group>"; };
+		4A39871C1987339500E1C602 /* HairPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HairPlace.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,11 @@
 		4A39870E1987333700E1C602 /* Deque_Lab4 */ = {
 			isa = PBXGroup;
 			children = (
-				4A39870F1987333700E1C602 /* main.cpp */,
+				4A39870F1987333700E1C602 /* lab4.cpp */,
+				4A3987181987337200E1C602 /* Patron.cpp */,
+				4A3987191987337200E1C602 /* Patron.h */,
+				4A39871B1987339500E1C602 /* HairPlace.cpp */,
+				4A39871C1987339500E1C602 /* HairPlace.h */,
 				4A3987111987333700E1C602 /* Deque_Lab4.1 */,
 			);
 			path = Deque_Lab4;
@@ -117,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3987101987333700E1C602 /* main.cpp in Sources */,
+				4A39871D1987339500E1C602 /* HairPlace.cpp in Sources */,
+				4A3987101987333700E1C602 /* lab4.cpp in Sources */,
+				4A39871A1987337200E1C602 /* Patron.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

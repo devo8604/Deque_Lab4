@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Devon Smith. All rights reserved.
 //
 
+#include "HairPlace.h"
 #include <iostream>
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    HairPlace hairplace;
+    hairplace.hairCutAnalysis();
     return 0;
 }
 
